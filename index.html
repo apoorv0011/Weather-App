@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apoorv's Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link class="logo" rel="icon" href="logo.svg " border-radius:"10px">
+
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><img class="searchBtn" src="images/search.png" height="20px" width="20px"></button>
+        </div>
+        <div class="error"><p>Invalid City Name</p></div>
+        <div class="weather">
+            <div class="detailmain">
+                <img class="weather-icon" src="images/rain.png"  alt="">
+                <h1 class="temp">22°C</h1>
+                <h2 class="cityName">Bengaluru</h2>
+            </div>
+            <div class="details">
+
+                <div class="col">
+                    <img src=" images/humidity.png" alt="">
+                    <div class="aboutWeather">
+                        <p class=" humidity">50%</p>
+                        <p class="humidity2">Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img class="windimg" src="images/wind.png" alt="">
+                    <div class="aboutWeather">
+                        <p class="wind-speed ">5km/h</p>
+                        <p class="wind-speed2">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
